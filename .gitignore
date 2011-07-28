@@ -1,0 +1,7 @@
+.svn
+.DS_Store
+
+# xcode junk
+*.pbxuser
+xcuserdata
+*.mode1v3

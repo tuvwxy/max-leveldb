@@ -1,0 +1,222 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		387A0F1D13E1DDD4009978AF /* MaxClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 387A0F1B13E1DDD4009978AF /* MaxClass.cpp */; };
+		387A0F1F13E1DE0C009978AF /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387A0F1E13E1DE0C009978AF /* MaxAPI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		382C5C1A10B5F15E0081E97D /* maxmspsdk-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "maxmspsdk-debug.xcconfig"; sourceTree = "<group>"; };
+		382C5C1B10B5F15E0081E97D /* maxmspsdk-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "maxmspsdk-release.xcconfig"; sourceTree = "<group>"; };
+		382C5C3710B5F1D70081E97D /* leveldb.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leveldb.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		387A0F1B13E1DDD4009978AF /* MaxClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaxClass.cpp; path = ../src/MaxClass.cpp; sourceTree = SOURCE_ROOT; };
+		387A0F1C13E1DDD4009978AF /* MaxClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaxClass.h; path = ../src/MaxClass.h; sourceTree = SOURCE_ROOT; };
+		387A0F1E13E1DE0C009978AF /* MaxAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAPI.framework; path = ../../../../../../../../Library/Frameworks/MaxAPI.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		382C5C3510B5F1D70081E97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387A0F1F13E1DE0C009978AF /* MaxAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		382C5C0610B5F11A0081E97D = {
+			isa = PBXGroup;
+			children = (
+				382C5C1C10B5F1670081E97D /* Source */,
+				382C5C2610B5F1820081E97D /* External Frameworks and Libraries */,
+				382C5C1A10B5F15E0081E97D /* maxmspsdk-debug.xcconfig */,
+				382C5C1B10B5F15E0081E97D /* maxmspsdk-release.xcconfig */,
+				382C5C3810B5F1D70081E97D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		382C5C1C10B5F1670081E97D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				387A0F1B13E1DDD4009978AF /* MaxClass.cpp */,
+				387A0F1C13E1DDD4009978AF /* MaxClass.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		382C5C2610B5F1820081E97D /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				387A0F1E13E1DE0C009978AF /* MaxAPI.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		382C5C3810B5F1D70081E97D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				382C5C3710B5F1D70081E97D /* leveldb.mxo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		382C5C3610B5F1D70081E97D /* leveldb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 382C5C3C10B5F1D80081E97D /* Build configuration list for PBXNativeTarget "leveldb" */;
+			buildPhases = (
+				382C5C3310B5F1D70081E97D /* Resources */,
+				382C5C3410B5F1D70081E97D /* Sources */,
+				382C5C3510B5F1D70081E97D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leveldb;
+			productName = leveldb;
+			productReference = 382C5C3710B5F1D70081E97D /* leveldb.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		382C5C0810B5F11A0081E97D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 382C5C0B10B5F11A0081E97D /* Build configuration list for PBXProject "leveldb" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 382C5C0610B5F11A0081E97D;
+			productRefGroup = 382C5C3810B5F1D70081E97D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				382C5C3610B5F1D70081E97D /* leveldb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		382C5C3310B5F1D70081E97D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		382C5C3410B5F1D70081E97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387A0F1D13E1DDD4009978AF /* MaxClass.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		382C5C0910B5F11A0081E97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				LD_OPENMP_FLAGS = "";
+				LEVELDB_PATH = /usr/local/leveldb;
+			};
+			name = Debug;
+		};
+		382C5C0A10B5F11A0081E97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				LD_OPENMP_FLAGS = "";
+				LEVELDB_PATH = /usr/local/leveldb;
+			};
+			name = Release;
+		};
+		382C5C3A10B5F1D80081E97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382C5C1A10B5F15E0081E97D /* maxmspsdk-debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../../../../../Library/Frameworks\"";
+				GCC_VERSION = 4.2;
+				HEADER_SEARCH_PATHS = (
+					"$(LEVELDB_PATH)/include",
+					"~/Library/Frameworks/MaxAPI.framework/Headers",
+				);
+				LEVELDB_PATH = ../lib/leveldb;
+				OTHER_LDFLAGS = "$(LEVELDB_PATH)/libleveldb.a";
+			};
+			name = Debug;
+		};
+		382C5C3B10B5F1D80081E97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382C5C1B10B5F15E0081E97D /* maxmspsdk-release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../../../../../Library/Frameworks\"";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_VERSION = 4.2;
+				HEADER_SEARCH_PATHS = (
+					"$(LEVELDB_PATH)/include",
+					"~/Library/Frameworks/MaxAPI.framework/Headers",
+				);
+				LEVELDB_PATH = ../lib/leveldb;
+				OTHER_LDFLAGS = "$(LEVELDB_PATH)/libleveldb.a";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		382C5C0B10B5F11A0081E97D /* Build configuration list for PBXProject "leveldb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				382C5C0910B5F11A0081E97D /* Debug */,
+				382C5C0A10B5F11A0081E97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		382C5C3C10B5F1D80081E97D /* Build configuration list for PBXNativeTarget "leveldb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				382C5C3A10B5F1D80081E97D /* Debug */,
+				382C5C3B10B5F1D80081E97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 382C5C0810B5F11A0081E97D /* Project object */;
+}
